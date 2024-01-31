@@ -1,0 +1,36 @@
+.sidemenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    
+    // align-items: center;
+    text-transform: capitalize;
+    font-size: 12px;
+    .heading {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0 20px;
+      p {
+        color: #94a3b8;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+    .menu-down{
+      height: 36vh;
+      overflow: scroll;
+      scroll-behavior: smooth;
+    }
+    .menu-item{
+      display: flex;
+      // justify-content: center;
+      // align-items: center;
+      
+      gap: 8px;
+      padding: 9px;
+      color: #64748B;
+    }
+  }
